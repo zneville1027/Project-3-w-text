@@ -1,0 +1,248 @@
+@charset "utf-8";
+
+body {
+	color: saddlebrown;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 25px;
+	background-image: url(../Dreamweaver%20CC18_19_20%20Project_02%20Files/forest_background.jpeg);
+	background-size: cover;
+	}
+
+
+#container {
+    width: 1280px;
+    height: auto;
+    background-color: rgba(253,198,126,0.75);
+    margin: auto;
+}
+
+aside {
+    width: 150px;
+    height: 1040px;
+    float: left;
+    background-color: #B8B3B4;
+	opacity: 0.75;
+}
+
+
+/*float the aside next to the main*/
+
+header 
+{
+    width: 1280px;
+    height: 250px;
+    background-image: url(../images/blog_forest_header.png);
+    background-position: 58% 71%;
+    background-size: cover;
+    opacity: 1;
+    background-color: #F5BD7C;
+    margin: 65px 0px 0px 0px;
+    /* [disabled]margin-left: -2px; */
+}
+#container nav li {
+    display: block;
+    list-style-type: none;
+    float: left;
+    width: 60px;
+    margin-right: 40px;
+    font-family: dr-sugiyama-pro, 'sans-serif;';
+    margin-bottom: -4px;
+    font-size: 25px;
+    margin-top: 13px;
+ }
+
+main 
+{
+    width: 1090px;
+    height: auto;
+    float: left;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    background-color: rgba(253,197,126,0.75);	
+
+}
+#container {height: auto
+}
+#container nav ul {
+    margin: auto;
+    width: 450px;
+    padding-right: 0px;
+    /* [disabled]min-width: 34px; */
+}
+
+#container nav ul li {
+	width: 71px;
+	
+}
+nav a:link {
+    color: darkolivegreen;
+    text-decoration: none;
+	padding: 10px;
+}
+nav a:visited {
+    text-decoration: none;
+    color: beige;
+}
+nav a:hover {
+    text-decoration: none;
+    color: beige;
+	background-color: saddlebrown;
+	padding: 5px;
+	border-radius: 20px;
+}
+nav a:active {
+	text-decoration: none;
+	color: saddlebrown;
+	font-family: dr-sugiyama-pro, 'sans-serif;';
+}
+/*float the main next to the aside and reduce by 150px so they both line up.*/
+footer 
+{
+    width: 1280px;
+    height: 50px;
+    clear: both;
+}
+/*Clear the float on the footer so it shows up in the right place again*/
+h1 {
+    color: chocolate;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    /* [disabled]margin-right: -18px; */
+    /* [disabled]margin-left: -162px; */
+    opacity: 1;
+}
+img {
+    float: right;
+    height: auto;
+    padding-top: 10px;
+	opacity: 1;
+}
+
+.floatLeft {
+	float: Left;
+}
+article {
+    margin-bottom: 30px;
+    opacity: 1;
+}
+nav {
+    width: 1280px;
+    height: 65px;
+    font-size: 34px;
+    padding-left: 0px;
+    margin-left: 0px;
+    position: fixed;
+    top: 1px;
+    background-color: #BFB1A2;
+    z-index: 2;
+    opacity: 0.79;
+}
+.submit_btn {
+	width: 170px;
+	height: 30px;
+	background-color: darkolivegreen;
+	border-radius: 10px;
+	color: beige;
+	font-size: 16px;
+}
+.submit_btn:hover {
+-webkit-box-shadow: 6px 6px 36px 1px #1B1A1A;
+	box-shadow: 6px 6px 36px 1px #1B1A1A; 
+}
+.column {
+    width: 250px;
+    height: 750px;
+    float: left;
+    margin-left: 60px;
+    margin-right: 20px;
+}	
+
+main article img {
+    opacity: 1;
+    padding-right: 17px;
+    padding-left: 11px;
+}
+video {
+    width: 600px;
+    margin: auto;
+    height: 600px;
+}
+
+@media screen{
+h3 {
+	font-size: 12px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+body {
+}
+}
+/*Rules this page will follow for tablet-sized devices*/
+@media (max-width: 1024px){
+	#container {width: 768px;
+		height: auto;
+	}
+	header {width:768px;
+	}
+	nav {width: 768px;
+	}
+	main {width:578px;
+		height:auto;
+	}
+	aside {height:2398px;
+	}
+	footer {width:768px;
+	}
+	.column {margin: 0px 15px 0px 0px}
+}
+/*Rules the page will follow on mobile devices*/
+@media screen and (max-width:375px){
+	#container {width: 300px;
+		height: auto;
+	}
+	header {width:300px;
+		background-image: url()
+	}
+	nav {width: 300px;
+		height: 250px;
+		position: static;
+	}
+	main {width:300px;
+		height:auto;
+	}
+	aside {display: none;
+	}
+	
+	footer {width:300px;
+	}
+	.column {margin: 0px 15px 0px 0px}
+	
+#container nav li {
+	display: list-item;
+	list-style-type: none;
+	float: none;
+	margin: 0px 0px 20px 0px;
+	width: 260px;
+	text-align: center;	
+	
+}
+	
+	#container nav ul {
+	width: 260px;
+}
+
+	nav a:link {
+	display: block;
+	width: 200px;
+	background-color: #65EBFB;
+	color: white;
+	}
+	
+	nav a:visited {
+	text-decoration: none;
+	color: white;
+}
+}
